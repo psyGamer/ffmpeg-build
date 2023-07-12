@@ -9,6 +9,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Grant execute permission
+        run: chmod +x build_linux.sh
+  
       - name: Build
         run: ./build_linux.sh
 
