@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Build
-        run: build_linux.sh
+        run: ./build_linux.sh
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v3
