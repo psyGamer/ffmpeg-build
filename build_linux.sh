@@ -29,7 +29,7 @@ sudo apt-get -y install \
 echo Downloading sources...
 wget -O ffmpeg-sources.tar.bz2 https://ffmpeg.org/releases/ffmpeg-6.0.tar.bz2
 tar xjvf ffmpeg-sources.tar.bz2
-cd ffmpeg
+cd ffmpeg-6.0
 
 echo Configuring...
 mkdir build
