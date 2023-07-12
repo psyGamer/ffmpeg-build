@@ -39,8 +39,6 @@ mkdir build
     --enable-static \
     --disable-stripping \
     --enable-amf \
-    --enable-avisynth \
-    --enable-cuda-llvm \
     --enable-lto \
     --enable-fontconfig \
     --enable-gmp \
