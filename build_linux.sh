@@ -32,7 +32,9 @@ tar xjvf ffmpeg-sources.tar.bz2
 cd ffmpeg
 
 echo Configuring...
+mkdir build
 ./configure \
+    --prefix=./build \
     --disable-debug \
     --enable-static \
     --disable-stripping \
